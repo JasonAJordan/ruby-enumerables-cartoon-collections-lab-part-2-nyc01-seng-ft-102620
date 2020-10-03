@@ -23,7 +23,7 @@ def long_planeteer_calls(planeteer_calls)
   
   isTrue = false
   planeteer_calls.each do |string|
-    if stirng.length > 4 
+    if string.length > 4 
       isTrue = true
     end
   end 
