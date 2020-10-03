@@ -24,10 +24,8 @@ def long_planeteer_calls(planeteer_calls)
   planeteer_calls.map do |string|
     if stirng.length > 4
       true
-    else 
-      false
-    end
-    
+    end 
+  false  
   end 
 end
 
