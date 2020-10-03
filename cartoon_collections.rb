@@ -39,9 +39,7 @@ def find_valid_calls(planeteer_calls)
   first = nil
   isTrue = false
   planeteer_calls.each do |string|
-    if string.length > 4  && isTrue == false
-      isTrue = true
-      first = string
+    if string.index 
     end
   end 
   first 
